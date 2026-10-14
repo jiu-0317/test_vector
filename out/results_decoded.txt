@@ -1,0 +1,108 @@
+[   6024] bin3:all_ones_9              READOUT                                  MISO = 0x0051  result8=0x51  E4M3=9  E5M2=40
+[   6180] bin4:single_element_k        k=0                                      MISO = 0x0000  result8=0x00  E4M3=0  E5M2=0
+[   9092] bin4:single_element_k        READOUT                                  MISO = 0x0048  result8=0x48  E4M3=4  E5M2=8
+[   9236] bin4:single_element_k        k=1                                      MISO = 0x0048  result8=0x48  E4M3=4  E5M2=8
+[  12148] bin4:single_element_k        READOUT                                  MISO = 0x0048  result8=0x48  E4M3=4  E5M2=8
+[  12292] bin4:single_element_k        k=2                                      MISO = 0x0048  result8=0x48  E4M3=4  E5M2=8
+[  15204] bin4:single_element_k        READOUT                                  MISO = 0x0048  result8=0x48  E4M3=4  E5M2=8
+[  15348] bin4:single_element_k        k=3                                      MISO = 0x0048  result8=0x48  E4M3=4  E5M2=8
+[  18260] bin4:single_element_k        READOUT                                  MISO = 0x0048  result8=0x48  E4M3=4  E5M2=8
+[  18404] bin4:single_element_k        k=4                                      MISO = 0x0048  result8=0x48  E4M3=4  E5M2=8
+[  21316] bin4:single_element_k        READOUT                                  MISO = 0x0048  result8=0x48  E4M3=4  E5M2=8
+[  21460] bin4:single_element_k        k=5                                      MISO = 0x0048  result8=0x48  E4M3=4  E5M2=8
+[  24372] bin4:single_element_k        READOUT                                  MISO = 0x0048  result8=0x48  E4M3=4  E5M2=8
+[  24516] bin4:single_element_k        k=6                                      MISO = 0x0048  result8=0x48  E4M3=4  E5M2=8
+[  27428] bin4:single_element_k        READOUT                                  MISO = 0x0048  result8=0x48  E4M3=4  E5M2=8
+[  27572] bin4:single_element_k        k=7                                      MISO = 0x0048  result8=0x48  E4M3=4  E5M2=8
+[  30484] bin4:single_element_k        READOUT                                  MISO = 0x0048  result8=0x48  E4M3=4  E5M2=8
+[  30628] bin4:single_element_k        k=8                                      MISO = 0x0048  result8=0x48  E4M3=4  E5M2=8
+[  33540] bin4:single_element_k        READOUT                                  MISO = 0x0048  result8=0x48  E4M3=4  E5M2=8
+[  36752] bin5:overwrite_and_rerun     READOUT                                  MISO = 0x0052  result8=0x52  E4M3=10  E5M2=48
+[  37216] bin5:overwrite_and_rerun     READOUT                                  MISO = 0x0052  result8=0x52  E4M3=10  E5M2=48
+[  37824] bin5:overwrite_and_rerun     READOUT                                  MISO = 0x0050  result8=0x50  E4M3=8  E5M2=32
+[  40892] bin6:double_read             READOUT                                  MISO = 0x0051  result8=0x51  E4M3=9  E5M2=40
+[  41344] bin7:sign_relu_cancel        all -1*1 -> ReLU 0                       MISO = 0x0000  result8=0x00  E4M3=0  E5M2=0
+[  44256] bin7:sign_relu_cancel        READOUT                                  MISO = 0x0000  result8=0x00  E4M3=0  E5M2=0
+[  44400] bin7:sign_relu_cancel        2-2 -> 0                                 MISO = 0x0000  result8=0x00  E4M3=0  E5M2=0
+[  47312] bin7:sign_relu_cancel        READOUT                                  MISO = 0x0000  result8=0x00  E4M3=0  E5M2=0
+[  47456] bin7:sign_relu_cancel        5*2 - 4*1 = 6                            MISO = 0x0000  result8=0x00  E4M3=0  E5M2=0
+[  50368] bin7:sign_relu_cancel        READOUT                                  MISO = 0x004c  result8=0x4c  E4M3=6  E5M2=16
+[  50524] bin8:special_values          NaN in W[4]                              MISO = 0x0000  result8=0x00  E4M3=0  E5M2=0
+[  53436] bin8:special_values          READOUT                                  MISO = 0x007f  result8=0x7f  E4M3=nan  E5M2=nan
+[  53580] bin8:special_values          max*max overflow                         MISO = 0x007f  result8=0x7f  E4M3=nan  E5M2=nan
+[  56492] bin8:special_values          READOUT                                  MISO = 0x007e  result8=0x7e  E4M3=448  E5M2=nan
+[  56636] bin8:special_values          tiny*tiny underflow                      MISO = 0x007e  result8=0x7e  E4M3=448  E5M2=nan
+[  59548] bin8:special_values          READOUT                                  MISO = 0x0000  result8=0x00  E4M3=0  E5M2=0
+[  59692] bin8:special_values          E4M3 exp=0 flush                         MISO = 0x0000  result8=0x00  E4M3=0  E5M2=0
+[  62604] bin8:special_values          READOUT                                  MISO = 0x0000  result8=0x00  E4M3=0  E5M2=0
+[  62760] bin9:rounding                1.875*1.875 x9                           MISO = 0x0000  result8=0x00  E4M3=0  E5M2=0
+[  65672] bin9:rounding                READOUT                                  MISO = 0x0060  result8=0x60  E4M3=32  E5M2=512
+[  65816] bin9:rounding                1.875*1.0 + ...                          MISO = 0x0060  result8=0x60  E4M3=32  E5M2=512
+[  68728] bin9:rounding                READOUT                                  MISO = 0x0058  result8=0x58  E4M3=16  E5M2=128
+[  68872] bin9:rounding                mant sweep                               MISO = 0x0058  result8=0x58  E4M3=16  E5M2=128
+[  71784] bin9:rounding                READOUT                                  MISO = 0x0058  result8=0x58  E4M3=16  E5M2=128
+[  71940] bin10:exp_diff_large         2^7 + 8*2^-5                             MISO = 0x0000  result8=0x00  E4M3=0  E5M2=0
+[  74852] bin10:exp_diff_large         READOUT                                  MISO = 0x0070  result8=0x70  E4M3=128  E5M2=8192
+[  75008] bin11:modes                  in=E5M2 out=E4M3                         MISO = 0x0000  result8=0x00  E4M3=0  E5M2=0
+[  77920] bin11:modes                  READOUT                                  MISO = 0x0051  result8=0x51  E4M3=9  E5M2=40
+[  78064] bin11:modes                  in=E4M3 out=E5M2                         MISO = 0x0051  result8=0x51  E4M3=9  E5M2=40
+[  80976] bin11:modes                  READOUT                                  MISO = 0x0048  result8=0x48  E4M3=4  E5M2=8
+[  81120] bin11:modes                  in=E5M2 out=E5M2                         MISO = 0x0048  result8=0x48  E4M3=4  E5M2=8
+[  84032] bin11:modes                  READOUT                                  MISO = 0x0048  result8=0x48  E4M3=4  E5M2=8
+[  84176] bin11:modes                  E5M2 inf in                              MISO = 0x0048  result8=0x48  E4M3=4  E5M2=8
+[  87088] bin11:modes                  READOUT                                  MISO = 0x007d  result8=0x7d  E4M3=416  E5M2=nan
+[  87232] bin11:modes                  E5M2 exp=0 flush                         MISO = 0x007d  result8=0x7d  E4M3=416  E5M2=nan
+[  90144] bin11:modes                  READOUT                                  MISO = 0x0000  result8=0x00  E4M3=0  E5M2=0
+[  90288] bin11:modes                  E5M2 out overflow                        MISO = 0x0000  result8=0x00  E4M3=0  E5M2=0
+[  93200] bin11:modes                  READOUT                                  MISO = 0x007b  result8=0x7b  E4M3=352  E5M2=57344
+[  93356] bin12:random_mac             rand0 mi=0 mo=0 W=['0x3f', '0x3b', '0x56', '0x50', '0x33', '0x25', '0x48', '0x3b', '0x48'] I=['0x57', '0x43', '0x4b', '0x30', '0x41', '0xa5', '0x4e', '0x4b', '0x47'] MISO = 0x0000  result8=0x00  E4M3=0  E5M2=0
+[  96268] bin12:random_mac             READOUT                                  MISO = 0x0072  result8=0x72  E4M3=160  E5M2=12288
+[  96412] bin12:random_mac             rand1 mi=1 mo=0 W=['0x47', '0x36', '0x46', '0x49', '0x3e', '0x33', '0xc5', '0x31', '0x49'] I=['0x3a', '0x38', '0x49', '0x41', '0x33', '0x41', '0x3f', '0x3e', '0xbc'] MISO = 0x0072  result8=0x72  E4M3=160  E5M2=12288
+[  99324] bin12:random_mac             READOUT                                  MISO = 0x0069  result8=0x69  E4M3=72  E5M2=2560
+[  99468] bin12:random_mac             rand2 mi=0 mo=0 W=['0x29', '0x54', '0x20', '0x54', '0x52', '0x22', '0x4c', '0x37', '0x3f'] I=['0xbd', '0x2c', '0x46', '0x23', '0x22', '0x46', '0x2f', '0x3d', '0x38'] MISO = 0x0069  result8=0x69  E4M3=72  E5M2=2560
+[ 102380] bin12:random_mac             READOUT                                  MISO = 0x0057  result8=0x57  E4M3=15  E5M2=112
+[ 102524] bin12:random_mac             rand3 mi=1 mo=0 W=['0x32', '0x3a', '0x3e', '0x41', '0x43', '0x3d', '0x37', '0x3c', '0x3e'] I=['0x32', '0x3e', '0x4a', '0x41', '0x36', '0x4b', '0x3b', '0x41', '0x31'] MISO = 0x0057  result8=0x57  E4M3=15  E5M2=112
+[ 105436] bin12:random_mac             READOUT                                  MISO = 0x0064  result8=0x64  E4M3=48  E5M2=1024
+[ 105580] bin12:random_mac             rand4 mi=0 mo=0 W=['0x2c', '0x44', '0x31', '0x57', '0x30', '0x3a', '0x31', '0x56', '0x41'] I=['0x34', '0x27', '0x20', '0x20', '0x50', '0xa9', '0x4b', '0x3e', '0x44'] MISO = 0x0064  result8=0x64  E4M3=48  E5M2=1024
+[ 108492] bin12:random_mac             READOUT                                  MISO = 0x0062  result8=0x62  E4M3=40  E5M2=768
+[ 108636] bin12:random_mac             rand5 mi=1 mo=1 W=['0x36', '0x4a', '0x3b', '0x3c', '0xc3', '0x4b', '0x39', '0x39', '0x4a'] I=['0xb2', '0x3e', '0x3a', '0x40', '0x49', '0x38', '0x30', '0x4a', '0x49'] MISO = 0x0062  result8=0x62  E4M3=40  E5M2=768
+[ 111548] bin12:random_mac             READOUT                                  MISO = 0x0057  result8=0x57  E4M3=15  E5M2=112
+[ 111692] bin12:random_mac             rand6 mi=0 mo=1 W=['0x2a', '0x55', '0x4c', '0x28', '0x53', '0xc2', '0x31', '0x3e', '0x47'] I=['0x38', '0x32', '0x26', '0x20', '0x42', '0x2c', '0x36', '0x29', '0x2d'] MISO = 0x0057  result8=0x57  E4M3=15  E5M2=112
+[ 114604] bin12:random_mac             READOUT                                  MISO = 0x0051  result8=0x51  E4M3=9  E5M2=40
+[ 114748] bin12:random_mac             rand7 mi=1 mo=0 W=['0xc7', '0x47', '0x42', '0x34', '0x4a', '0x3a', '0x4a', '0xc0', '0x43'] I=['0xbd', '0x44', '0x3e', '0x49', '0x30', '0x44', '0x31', '0x40', '0x37'] MISO = 0x0051  result8=0x51  E4M3=9  E5M2=40
+[ 117660] bin12:random_mac             READOUT                                  MISO = 0x0064  result8=0x64  E4M3=48  E5M2=1024
+[ 117804] bin12:random_mac             rand8 mi=1 mo=1 W=['0xbd', '0x3d', '0xb2', '0x3c', '0x43', '0x31', '0x35', '0x41', '0x42'] I=['0x3d', '0x3f', '0x49', '0x3d', '0x30', '0x42', '0x49', '0xc2', '0x46'] MISO = 0x0064  result8=0x64  E4M3=48  E5M2=1024
+[ 120716] bin12:random_mac             READOUT                                  MISO = 0x004b  result8=0x4b  E4M3=5.5  E5M2=14
+[ 120860] bin12:random_mac             rand9 mi=1 mo=0 W=['0xba', '0x3b', '0xbd', '0x39', '0x3f', '0x46', '0x3d', '0x33', '0x3e'] I=['0x40', '0x45', '0x46', '0x3d', '0x3e', '0x48', '0x40', '0x3b', '0x42'] MISO = 0x004b  result8=0x4b  E4M3=5.5  E5M2=14
+[ 123772] bin12:random_mac             READOUT                                  MISO = 0x0065  result8=0x65  E4M3=52  E5M2=1280
+[ 123916] bin12:random_mac             rand10 mi=0 mo=1 W=['0x3a', '0x24', '0x4e', '0x4f', '0x49', '0x4c', '0x2b', '0xb1', '0xb8'] I=['0xb3', '0x3a', '0x35', '0x33', '0x26', '0x3b', '0x29', '0x2f', '0x4a'] MISO = 0x0065  result8=0x65  E4M3=52  E5M2=1280
+[ 126828] bin12:random_mac             READOUT                                  MISO = 0x004b  result8=0x4b  E4M3=5.5  E5M2=14
+[ 126972] bin12:random_mac             rand11 mi=1 mo=1 W=['0x35', '0x3e', '0x3d', '0x46', '0x3e', '0x31', '0x49', '0x3f', '0x4a'] I=['0x31', '0x3f', '0x35', '0xbf', '0xbb', '0x34', '0x4b', '0x3e', '0x3d'] MISO = 0x004b  result8=0x4b  E4M3=5.5  E5M2=14
+[ 129884] bin12:random_mac             READOUT                                  MISO = 0x0059  result8=0x59  E4M3=18  E5M2=160
+[ 130028] bin12:random_mac             rand12 mi=0 mo=0 W=['0x48', '0x32', '0xa0', '0x42', '0xd1', '0x28', '0x2c', '0x53', '0x3d'] I=['0x33', '0x36', '0x40', '0x46', '0x4e', '0x24', '0x49', '0x22', '0x56'] MISO = 0x0059  result8=0x59  E4M3=18  E5M2=160
+[ 132940] bin12:random_mac             READOUT                                  MISO = 0x0000  result8=0x00  E4M3=0  E5M2=0
+[ 133084] bin12:random_mac             rand13 mi=0 mo=0 W=['0x57', '0x25', '0x3a', '0x57', '0xa4', '0x24', '0xa4', '0x2c', '0x51'] I=['0x31', '0x2b', '0x36', '0x47', '0xc0', '0x54', '0x2d', '0x31', '0x29'] MISO = 0x0000  result8=0x00  E4M3=0  E5M2=0
+[ 135996] bin12:random_mac             READOUT                                  MISO = 0x0069  result8=0x69  E4M3=72  E5M2=2560
+[ 136140] bin12:random_mac             rand14 mi=0 mo=1 W=['0x4d', '0x35', '0x48', '0x2d', '0x35', '0x3c', '0x36', '0x20', '0xc4'] I=['0x4d', '0x55', '0x3d', '0x28', '0x42', '0x2e', '0x40', '0x44', '0x2c'] MISO = 0x0069  result8=0x69  E4M3=72  E5M2=2560
+[ 139052] bin12:random_mac             READOUT                                  MISO = 0x0054  result8=0x54  E4M3=12  E5M2=64
+[ 139196] bin12:random_mac             rand15 mi=0 mo=0 W=['0x53', '0x2e', '0xd7', '0x33', '0x47', '0x2e', '0x33', '0x49', '0x36'] I=['0xc7', '0xa5', '0x38', '0xc8', '0x54', '0x4d', '0x44', '0x46', '0x44'] MISO = 0x0054  result8=0x54  E4M3=12  E5M2=64
+[ 142108] bin12:random_mac             READOUT                                  MISO = 0x0052  result8=0x52  E4M3=10  E5M2=48
+[ 142252] bin12:random_mac             rand16 mi=1 mo=1 W=['0xc1', '0x36', '0x3c', '0x3e', '0x48', '0x30', '0x3e', '0x3b', '0x3f'] I=['0x3e', '0x31', '0x39', '0x3b', '0x42', '0x46', '0x4b', '0xbf', '0x35'] MISO = 0x0052  result8=0x52  E4M3=10  E5M2=48
+[ 145164] bin12:random_mac             READOUT                                  MISO = 0x0051  result8=0x51  E4M3=9  E5M2=40
+[ 145308] bin12:random_mac             rand17 mi=0 mo=0 W=['0x39', '0x4a', '0x26', '0x23', '0x30', '0x26', '0x49', '0x4c', '0x53'] I=['0x26', '0xb7', '0x27', '0xc3', '0xbc', '0x4b', '0x45', '0x20', '0x4d'] MISO = 0x0051  result8=0x51  E4M3=9  E5M2=40
+[ 148220] bin12:random_mac             READOUT                                  MISO = 0x006a  result8=0x6a  E4M3=80  E5M2=3072
+[ 148364] bin12:random_mac             rand18 mi=1 mo=0 W=['0x3e', '0x48', '0xb9', '0x36', '0x41', '0x3a', '0x3a', '0x3e', '0x36'] I=['0x47', '0x32', '0x35', '0x3f', '0x35', '0x34', '0x48', '0x44', '0x42'] MISO = 0x006a  result8=0x6a  E4M3=80  E5M2=3072
+[ 151276] bin12:random_mac             READOUT                                  MISO = 0x005d  result8=0x5d  E4M3=26  E5M2=320
+[ 151420] bin12:random_mac             rand19 mi=1 mo=1 W=['0x4a', '0x34', '0x3a', '0x47', '0xb9', '0x44', '0x30', '0x36', '0x38'] I=['0xb9', '0xb8', '0x38', '0x49', '0x4a', '0x47', '0x43', '0x36', '0x30'] MISO = 0x005d  result8=0x5d  E4M3=26  E5M2=320
+[ 154332] bin12:random_mac             READOUT                                  MISO = 0x0055  result8=0x55  E4M3=13  E5M2=80
+[ 155930] bin13:min_timing_K2_G3       READOUT                                  MISO = 0x0051  result8=0x51  E4M3=9  E5M2=40
+[ 167565] bin14:slow_timing_K16_G32    READOUT                                  MISO = 0x0051  result8=0x51  E4M3=9  E5M2=40
+[ 171497] bin15:ignored_cmds_mosi_high READOUT                                  MISO = 0x0051  result8=0x51  E4M3=9  E5M2=40
+[ 171653] bin16:negative_inputs_all_pos (-2)*(-1) x9 = 18                        MISO = 0x0000  result8=0x00  E4M3=0  E5M2=0
+[ 174565] bin16:negative_inputs_all_pos READOUT                                  MISO = 0x0059  result8=0x59  E4M3=18  E5M2=160
+[ 174709] bin16:negative_inputs_all_pos alternating signs                        MISO = 0x0059  result8=0x59  E4M3=18  E5M2=160
+[ 177621] bin16:negative_inputs_all_pos READOUT                                  MISO = 0x004c  result8=0x4c  E4M3=6  E5M2=16
+[ 177765] bin16:negative_inputs_all_pos E5M2 neg*neg                             MISO = 0x004c  result8=0x4c  E4M3=6  E5M2=16
+[ 180677] bin16:negative_inputs_all_pos READOUT                                  MISO = 0x0048  result8=0x48  E4M3=4  E5M2=8
+[ 180821] bin16:negative_inputs_all_pos back to positive                         MISO = 0x0048  result8=0x48  E4M3=4  E5M2=8
+[ 183733] bin16:negative_inputs_all_pos READOUT                                  MISO = 0x0051  result8=0x51  E4M3=9  E5M2=40

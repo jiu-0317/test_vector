@@ -1,0 +1,39 @@
+toggle coverage: 1352/1383 nets fully toggled (97.8%)
+
+== glue(FPU/ACC_adder/IR/mux 등 평탄화된 조합논리): 29 incomplete nets ==
+  VDD                              rise=     0 fall=     0   driver: -
+  VSS                              rise=     0 fall=     0   driver: -
+  n_1009                           rise=     0 fall=     0   driver: HAX1 g17730__1881.CO
+  n_1035                           rise=     0 fall=     0   driver: NAND2X1 g17576__1617.Y
+  n_1100                           rise=     0 fall=     0   driver: NOR3X1 g26841.Y
+  n_349                            rise=     0 fall=     0   driver: NAND3X1 g26378__7098.Y
+  n_354                            rise=     0 fall=     0   driver: NAND3X1 g26373__1617.Y
+  n_355                            rise=     0 fall=     0   driver: NAND3X1 g26372__3680.Y
+  n_357                            rise=     0 fall=     0   driver: NAND3X1 g26370__5526.Y
+  n_372                            rise=     0 fall=     0   driver: AOI21X1 g26355__6161.Y
+  n_373                            rise=     0 fall=     0   driver: AOI21X1 g26354__4733.Y
+  n_420                            rise=     0 fall=     0   driver: HAX1 g26320__7098.CO
+  n_838                            rise=     0 fall=     0   driver: NOR3X1 g25933__1617.Y
+  n_841                            rise=     0 fall=     0   driver: NAND3X1 g25924__5477.Y
+  n_854                            rise=     0 fall=     0   driver: AND2X1 g25913__7482.Y
+  n_86                             rise=     0 fall=     0   driver: MUX2X1 g26679__2346.Y
+  n_95                             rise=     0 fall=     0   driver: INVX1 g26670.Y
+  n_991                            rise=     0 fall=     0   driver: NOR2X1 g17785__7482.Y
+  n_997                            rise=     0 fall=     0   driver: HAX1 g17777__8246.CO
+  u_ctrl_next_state[0]             rise=     0 fall=     0   driver: -
+  u_spi_TBUF[15]                   rise=     0 fall=     0   driver: -
+  u_spi_r_dat[10]                  rise=     0 fall=     0   driver: -
+  u_spi_r_dat[11]                  rise=     0 fall=     0   driver: -
+  u_spi_r_dat[12]                  rise=     0 fall=     0   driver: -
+  u_spi_r_dat[13]                  rise=     0 fall=     0   driver: -
+  u_spi_r_dat[14]                  rise=     0 fall=     0   driver: -
+  u_spi_r_dat[15]                  rise=     0 fall=     0   driver: -
+  u_spi_r_dat[8]                   rise=     0 fall=     0   driver: -
+  u_spi_r_dat[9]                   rise=     0 fall=     0   driver: -
+
+== u_spi: 1 incomplete nets ==
+  u_spi_r_dat[7]                   rise=     0 fall=     0   driver: DFFSRX1 \u_spi_r_dat_reg[7].Q
+
+== u_acc_r: 1 incomplete nets ==
+  acc_r_data[7]                    rise=     0 fall=     0   driver: DFFSRX1 \u_acc_r_o_data_reg[7].Q
+
