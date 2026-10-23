@@ -33,7 +33,7 @@ import time
 
 # =========================== 설정 ===========================
 CHIP_ID          = "chip01"    # 로그 파일 이름/헤더에 사용
-CLK_HZ           = 1_000_000     # i_clk 주파수. 통과 후 1_000_000 으로 올려서 재확인
+CLK_HZ           = 42_000_000     # i_clk 주파수. 통과 후 1_000_000 으로 올려서 재확인
 INVERT_INPUTS    = True        # HC14 반전 보상 (칩 입력 5개)
 STOP_ON_CRITICAL = True        # T0/T2 실패 시 뒤 단계 생략
 DONE_TIMEOUT_MS  = 20          # done=1 을 기다리는 최대 시간
